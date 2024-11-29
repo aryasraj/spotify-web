@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.726) 0%, rgb(0, 0, 0) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: 25px;
+    overflow: clip;
+}
+
+.main-content {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.login-container {
+    margin-top: 26px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 700px;
+    height: 780px;
+
+    border-radius: .65rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(18, 18, 18, 1) 75%);
+}
+
+.login-head h1 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+
+.login-head i {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top:5px;
+    padding-left: 99px;
+}
+
+.login-options {
+    margin-top: 5px;
+    display: grid;
+    row-gap: .5rem;
+    border-bottom: .5px solid #2d2d2d;
+    width: 100%;
+    place-items: center;
+    padding: 2rem 0 3rem;
+}
+
+.google,
+.facebook,
+.apple,
+.mobile {
+    display: flex;
+    align-items: center;
+    border: .5px solid #636363;
+    border-radius: 4rem;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.google,
+.facebook,
+.apple {
+    height: 1px;
+    width: 43%;
+    padding: 1.4rem;
+    column-gap: 2rem;
+    justify-content: start;
+}
+
+.google h3,
+.facebook h3,
+.apple h3,
+.mobile h3 {
+    font-weight: 600;
+    font-size: 15px
+}
+
+.apple {
+    column-gap: 2.3rem;
+}
+
+.apple img {
+    color: #fff;
+}
+
+.mobile {
+    height: 1px;
+    width: 43%;
+    padding: 1.4rem;
+    justify-content: center;
+}
+
+.login-options div {
+    transition: border-color .4s;
+
+}
+
+.login-options div:hover {
+    border-color: #fff;
+}
+
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0 2rem;
+    row-gap: 1.25rem;
+}
+
+.email-input-box {
+    display: grid;
+    width: 47%;
+    row-gap: .4rem;
+}
+
+.email-label,
+.rem-txt {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+.email-input {
+    border: 1.5px solid #6e6e6e;
+    border-radius: .25rem;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    padding: 0.85rem;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    transition: border-color .4s;
+}
+
+.email-input:hover :hover {
+    border-color: #fff;
+}
+
+.email-input:focus {
+    outline: 3px solid #fff;
+}
+
+.email-input::placeholder {
+
+    color: #b3b3b3;
+    font-size: 16px;
+
+}
+
+.login-button {
+    width: 46%;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #1ed760;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: .75rem 0;
+    margin-top: -1px;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: scale .4s, box-shadow .4s;
+}
+
+.login-btn:hover {
+    scale: 1.05;
+    box-shadow: #0c7b33;
+}
+
+.signUp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.signUp-txt {
+    font-weight: 500;
+    font-size: 16px;
+    color: #b3b3b3;
+    text-align: center;
+}
+
+.signUp-txt {
+    font-weight: 500;
+    font-size: 16px;
+    color: #b3b3b3;
+    text-align: center;
+}
+
+.signUp-spotify {
+    font-weight: 600;
+    font-size: 16px;
+    color: #b3b3b3;
+    text-align: center;
+}
+
+.signUp-spotify:hover {
+    color: #1ed760
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #121212;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-txt {
+    font-size: .75rem;
+    font-weight: bold;
+    color: #949494;
+    text-align: center;
+}
+
+.footer-txt a {
+    color: #949494;
+}
